@@ -1,0 +1,7 @@
+ep 0 loss 1.4044 207s
+ep 1 loss 0.3254 407s
+ep 2 loss 0.2597 610s
+ep 3 loss 0.2045 816s
+ep 4 loss 0.1557 1010s
+ep 5 loss 0.1243 1208s
+holdout exact 0.4727

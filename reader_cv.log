@@ -1,0 +1,22 @@
+selecting real pairs...
+C:\Users\tarun\OneDrive\Desktop\ERIS\payment_work\reader_cv.py:40: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  net.load_state_dict(torch.load(W + '\\cache\\' + BASE, map_location=dev))
+  select 0 (0s)
+  select 100 (11s)
+  select 200 (22s)
+  select 300 (33s)
+  select 400 (44s)
+  select 500 (62s)
+pairs on 529 images
+pseudo pool 46094
+fold 0
+C:\Users\tarun\OneDrive\Desktop\ERIS\payment_work\reader_cv.py:95: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  net.load_state_dict(torch.load(W + '\\cache\\' + BASE, map_location=dev))
+    ep0 loss 0.6037
+    ep1 loss 0.2970
+  fold 0 exact-decode recall 0.5932
+fold 1
+C:\Users\tarun\OneDrive\Desktop\ERIS\payment_work\reader_cv.py:95: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  net.load_state_dict(torch.load(W + '\\cache\\' + BASE, map_location=dev))
+    ep0 loss 0.5893
+    ep1 loss 0.2831

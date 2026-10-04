@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.err
+
+# Model weights, cached arrays and submissions are not part of the repo
+cache/
+*.csv

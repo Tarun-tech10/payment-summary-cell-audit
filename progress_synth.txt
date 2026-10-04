@@ -1,0 +1,12 @@
+  train 0/529 (0s)
+  train 100/529 (2s)
+  train 200/529 (4s)
+  train 300/529 (6s)
+  train 400/529 (8s)
+  train 500/529 (11s)
+train: 52.2 synthesised values per receipt (11s)
+DIGIT RECALL  0.6560 -> 0.6597
+  test 0/250 (0s)
+  test 100/250 (2s)
+  test 200/250 (4s)
+test: 52.2 synthesised values per receipt (5s)

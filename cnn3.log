@@ -1,0 +1,19 @@
+﻿fold 0
+fold 1
+fold 2
+fold 3
+fold 4
+python : Traceback (most recent call last):
+At line:1 char:383
++ ... IS\payment_work"; $env:PYTHONUNBUFFERED=1; python cnn3.py *> cnn3.log
++                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\tarun\OneDrive\Desktop\ERIS\payment_work\cnn3.py", line 36, in <module>
+    print('grid oof (run3)', np.mean([grid_score(p[i], G[i]) for i in range(len(G))]))
+                                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tarun\OneDrive\Desktop\ERIS\payment_work\scorer.py", line 38, in grid_score
+    u = (pi | gi).sum()
+         ~~~^~~~
+ValueError: operands could not be broadcast together with shapes (16,) (4,4) 

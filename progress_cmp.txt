@@ -1,0 +1,2 @@
+crnn2.pt on tok3: raw 0.5577  +reformat 0.6049  digits 0.6144  (71s)
+crnn3.pt on tok3: raw 0.5822  +reformat 0.6238  digits 0.6333  (48s)

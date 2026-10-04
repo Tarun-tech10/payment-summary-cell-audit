@@ -1,0 +1,20 @@
+﻿python : C:\Users\tarun\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-pack
+ages\Python312\site-packages\torch\optim\lr_scheduler.py:224: UserWarning: Detected call of `lr_scheduler.step()` 
+before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` 
+before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate 
+schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+At line:1 char:358
++ ... run\OneDrive\Desktop\ERIS\payment_work"; python crnn.py 6 *> crnn.log
++                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\tarun\...t-learning-rate:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+ep 0 loss 0.7066 254s
+ep 1 loss 0.0069 510s
+ep 2 loss 0.0047 671s
+ep 3 loss 0.0032 828s
+ep 4 loss 0.0014 1082s
+ep 5 loss 0.0004 1347s
+synthetic holdout exact acc 0.921875
+[('2,628', '2,628'), ('815.255', '815.255'), ('11,616', '11,616'), ('64726', '64726'), ('00', '00'), ('21,133,', '21,133'), ('6.008.506.', '6.008.506'), ('42.661', '42.661'), ('2,719', '2,719'), ('92,489', '92,489')]

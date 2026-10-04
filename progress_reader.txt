@@ -1,0 +1,8 @@
+pseudo pool 46094
+fold 0
+    ep0 loss 0.6037
+    ep1 loss 0.2970
+  fold 0 exact-decode recall 0.5932
+fold 1
+    ep0 loss 0.5893
+    ep1 loss 0.2831

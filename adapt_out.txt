@@ -1,0 +1,15 @@
+train: 13102 scale-stable crops
+test: 6255 scale-stable crops
+kept 14518 pseudo-labelled real crops (conf >= -0.030); 1s
+sample labels: ['20', '-7,000', 'TCREAMM21', '8.000,00', '28,000', '61,000', '35.000', '15000', '1QT', '122,727', '-2', '100,0001']
+synth pool 320000
+  ep0 step 0/354 loss 3.1562 (14s)
+  ep0 step 200/354 loss 0.6619 (62s)
+ep 0 loss 0.4739 (118s)
+  ep1 step 0/354 loss 0.3237 (118s)
+  ep1 step 200/354 loss 0.1995 (197s)
+ep 1 loss 0.1869 (254s)
+  ep2 step 0/354 loss 0.0578 (254s)
+  ep2 step 200/354 loss 0.1592 (335s)
+ep 2 loss 0.1590 (396s)
+saved crnn5.pt

@@ -1,0 +1,11 @@
+grid: cell-refined, oof 0.7655
+cands (558212, 88) recall ceiling 0.6465
+stage A digit acc 0.5860; decode argmax=0.6409, mbr2.0=0.6409, mbr1.0=0.6407, mbr0.5=0.6405
+TOTAL oof 0.6029 exact 0.5312
+num_items: + line-count features (529, 19)
+num_items {0: 0.4896, 0.25: 0.4802, 0.5: 0.4726, 0.75: 0.448, 1: 0.448} w 0
+fields {0: 0.7003, 0.25: 0.7238, 0.5: 0.7467, 0.75: 0.7434, 1: 0.7482} w 1
+fields decode: threshold 0.7482 vs joint-expected 0.7482
+grid oof (constrained) 0.7658
+OOF BREAKDOWN {'grid': np.float64(0.7658), 'total': np.float64(0.6029), 'num_items': np.float64(0.4896), 'fields': np.float64(0.7482), 'score': np.float64(0.6742)}
+wrote submission.csv 250

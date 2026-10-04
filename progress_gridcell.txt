@@ -1,0 +1,4 @@
+cell matrix (8464, 100)
+grid: cnn 0.7411  cell-lgbm 0.7655
+best blend w=1.00 -> 0.7655
+saved blended grid probs

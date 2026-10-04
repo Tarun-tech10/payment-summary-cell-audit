@@ -1,0 +1,2 @@
+zoom cache (529, 3, 384, 256)
+fold 0 acc so far 0.3774 (553s)
